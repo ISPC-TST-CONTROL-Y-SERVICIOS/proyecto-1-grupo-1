@@ -24,9 +24,15 @@ Objetivo:
 
 Equipo scrum: Compuesto por 6 integrantes, distribuidos de la siguiente manera:  
 •	1 scrum máster  
+    Federico Birge
 •	2 especialistas en programación  
+    Leonardo Gonzalez
+    Pedro Rojo
 •	2 especialistas en modelado y control de sistemas  
+    Andres Montaño
+    Emma Gutierrez
 •	1 especialista en electrónica y circuitos, que también será el PO
+    Mario Gonzalez
 
 Duración: El proyecto tendrá una duración de 1 mes.  
 
