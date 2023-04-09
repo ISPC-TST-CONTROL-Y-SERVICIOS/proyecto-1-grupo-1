@@ -33,7 +33,7 @@ Equipo scrum: Compuesto por 6 integrantes, distribuidos de la siguiente manera:
     Andres Montaño - Emma Gutierrez
     
 •	1 especialista en electrónica y circuitos, que también será el PO
-    Mario Gonzalez
+     Mario Gonzalez
 
 Duración: El proyecto tendrá una duración de 1 mes.  
 
