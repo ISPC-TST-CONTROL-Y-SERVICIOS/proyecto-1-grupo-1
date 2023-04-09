@@ -27,12 +27,10 @@ Equipo scrum: Compuesto por 6 integrantes, distribuidos de la siguiente manera:
     Federico Birge
     
 •	2 especialistas en programación  
-    Leonardo Gonzalez
-    Pedro Rojo
+    Leonardo Gonzalez - Pedro Rojo
     
 •	2 especialistas en modelado y control de sistemas  
-    Andres Montaño
-    Emma Gutierrez
+    Andres Montaño - Emma Gutierrez
     
 •	1 especialista en electrónica y circuitos, que también será el PO
     Mario Gonzalez
