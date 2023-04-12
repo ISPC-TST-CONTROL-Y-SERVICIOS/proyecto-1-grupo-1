@@ -6,7 +6,7 @@
 
 # GRUPO 1
 
-## Integrates:  
+## Integrantes:  
 1. Andrés Montaño -- https://github.com/maj3210
 2. Emma Gutierrez -- https://github.com/Emygut
 3. Federico Birge -- https://github.com/FedeBirge
