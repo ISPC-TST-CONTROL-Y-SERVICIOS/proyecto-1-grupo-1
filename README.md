@@ -3,7 +3,6 @@
 * El repositorio contiene el código fuente para el control de temperatura en una casa de 3 ambientes modelado a través de un controlador PI con su correspondiente fundamento matemático.
 
 ## Componentes electronicos proyecto ##
-[embed]http://example.com/file.pdf[/embed]
 
 ## ArduinoApp ##
 * Código en C++ para placas de desarrollo Arduino para pruebas y actualizaciones.
