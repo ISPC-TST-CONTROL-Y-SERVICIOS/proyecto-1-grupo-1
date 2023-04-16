@@ -4,7 +4,10 @@
 
 ## Componentes electronicos proyecto ##
 ![1](https://github.com/ISPC-TST-CONTROL-Y-SERVICIOS/proyecto-1-grupo-1/blob/Mario/Academico/B-%20Bibliografia/Plannig%2001.png)
-
+![1](https://github.com/ISPC-TST-CONTROL-Y-SERVICIOS/proyecto-1-grupo-1/blob/Mario/Academico/B-%20Bibliografia/Plannig%2002.png)
+![1](https://github.com/ISPC-TST-CONTROL-Y-SERVICIOS/proyecto-1-grupo-1/blob/Mario/Academico/B-%20Bibliografia/Plannig%2003.png)
+![1](https://github.com/ISPC-TST-CONTROL-Y-SERVICIOS/proyecto-1-grupo-1/blob/Mario/Academico/B-%20Bibliografia/Plannig%2004.png)
+![1](https://github.com/ISPC-TST-CONTROL-Y-SERVICIOS/proyecto-1-grupo-1/blob/Mario/Academico/B-%20Bibliografia/Plannig%2005.png)
 ## ArduinoApp ##
 * Código en C++ para placas de desarrollo Arduino para pruebas y actualizaciones.
 * Librerías utilizadas: ..
