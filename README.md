@@ -14,7 +14,9 @@
 
 ## Esquema Electrónico ##
 * Esquema para reflejar la conexión de una placa de desarrollo ESP32, con tres sensores de temperatura LM35.
-
+![1](https://github.com/ISPC-TST-CONTROL-Y-SERVICIOS/proyecto-1-grupo-1/blob/Mario/Academico/B-%20Bibliografia/Circuito_01.png)
+![1](https://github.com/ISPC-TST-CONTROL-Y-SERVICIOS/proyecto-1-grupo-1/blob/Mario/Academico/B-%20Bibliografia/Circuito_02.png)
+![1](https://github.com/ISPC-TST-CONTROL-Y-SERVICIOS/proyecto-1-grupo-1/blob/Mario/Academico/B-%20Bibliografia/Circuito_03.png)
 ## ScreenShots ##
 * Imágenes del maquetado del proyecto
 
