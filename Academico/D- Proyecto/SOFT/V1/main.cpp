@@ -1,5 +1,6 @@
 #include <Arduino.h>
 
+# Pruebas utilizando LM35
 const int pin_lm35 = A5; // El pin analógico conectado a la salida del LM35
 double error; //error 
 double errorPas=0; //suma de errores
