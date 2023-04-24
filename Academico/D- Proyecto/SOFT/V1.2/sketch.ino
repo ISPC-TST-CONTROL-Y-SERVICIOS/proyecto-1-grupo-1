@@ -128,11 +128,11 @@ void setup() {
 
 void loop() {
 
-  //PI_H1();
-  //PI_H2();
+  PI_H1();
+  PI_H2();
   PI_H3();
   
- delay(2000);
+ delay(4000);
  
   }
 
