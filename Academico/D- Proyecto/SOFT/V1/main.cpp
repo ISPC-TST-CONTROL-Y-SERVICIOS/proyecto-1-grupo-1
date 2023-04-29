@@ -37,14 +37,14 @@ void loop() {
   ahora=millis(); //tiempo actual
   int CambioTiempo= ahora - pasado; //dif de tiempo actual - pasado
   if (CambioTiempo>= TiempoMuestreo){
-  error =ref - temperatura; //Error actual
-  errorPas= error * TiempoMuestreo + errorPas; //suma acumulativa de error
-  float P=Kp*error;
-  float I=Ki*errorPas;
-  U=P+I; //Señal de control
-  pasado=ahora; //Actualiza tiempo
-  Serial.print("U= ");
-  Serial.println(U);
+    error =ref - temperatura; //Error actual
+    errorPas= error * TiempoMuestreo + errorPas; //suma acumulativa de error
+    float P=Kp*error;
+    float I=Ki*errorPas;
+    U=P+I; //Señal de control
+    pasado=ahora; //Actualiza tiempo
+    Serial.print("U= ");
+    Serial.println(U);
 
   }
 
