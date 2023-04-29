@@ -35,8 +35,7 @@ void setup() {
 void loop() {
 
   lcd.clear();
-  lcd.setCursor(0, 0);
-  lcd.print("Temperatura = ");
+
   float t1 = dht1.readTemperature();
   float t2 = dht2.readTemperature();
   float t3 = dht3.readTemperature();
