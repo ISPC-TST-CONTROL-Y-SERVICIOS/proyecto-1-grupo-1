@@ -51,44 +51,7 @@ void loop() {
   lcd.print("Temp-2 = ");
   lcd.print(t3);
 
-
-
-
-
   delay(2000);
   lcd.clear();
   delay(1000); 
 }
-
-
-/*
-void loop() {
-  // Wait for a time between measurements
-  if ((millis() - timerDHT) > TIMEDHT) {
-    // Update the timer
-    timerDHT = millis();
-
-    // Reading temperature or humidity takes about 250 milliseconds!
-    // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
-    float h = dht.readHumidity();
-    // Read temperature as Celsius (the default)
-    float t = dht.readTemperature();
-    // Read temperature as Fahrenheit (isFahrenheit = true)
-    float f = dht.readTemperature(false);
-
-    // Check if any reads failed and exit early (to try again)
-    if (isnan(h) || isnan(t) || isnan(f)) {
-      Serial.println(F("Failed to read from DHT sensor!"));
-      return;
-    }
-
-    // Where: HIGH = Temperature, LOW = Humidity
-    if (digitalRead(SW1TPIN) == LOW) {
-      Serial.print(F("Temperature: "));
-      Serial.println(t);
-    } else {
-      Serial.print(F("% Humidity: "));
-      Serial.println(h);
-    }
-  }
-}*/
