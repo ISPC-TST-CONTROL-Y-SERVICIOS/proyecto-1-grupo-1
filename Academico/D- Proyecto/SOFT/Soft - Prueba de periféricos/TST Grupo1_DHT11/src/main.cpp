@@ -12,7 +12,7 @@
 #include <LiquidCrystal.h>
 #include <DHT.h>
 #define DHTPIN_1 0
-#define DHTPIN_2 2
+#define DHTPIN_2 4
 #define DHTPIN_3 15
 
 #define DHTTYPE DHT11
