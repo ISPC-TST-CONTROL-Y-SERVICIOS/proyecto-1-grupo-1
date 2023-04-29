@@ -7,6 +7,6 @@ Video de simulacion con 3 sensores DHT22 en WOWKI
 https://youtu.be/7KuE0lPy41Y
 
 
-Video de simulacion con 3 sensores DHT22, 3 potenciometros, LCD 20x4  V1.3
+Video de simulacion con 3 sensores DHT22, 3 potenciometros, LCD 20x4 
 
 https://youtu.be/ZyBpubuJEk0
