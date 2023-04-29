@@ -34,28 +34,6 @@ DHTesp dhtHabitacion1;
 DHTesp dhtHabitacion2;
 DHTesp dhtHabitacion3;
 
-void setup()
-{
-  Serial.begin(9600);
-  // inicializo pines de salida
-  pinMode(ledRojo_1, OUTPUT);
-  pinMode(ledAzul_1, OUTPUT);
-  pinMode(ledRojo_2, OUTPUT);
-  pinMode(ledAzul_2, OUTPUT);
-  pinMode(ledRojo_3, OUTPUT);
-  pinMode(ledAzul_3, OUTPUT);
-  
- //  inicio LCD
-  LCD.init();
-  LCD.backlight();
-  LCD.setCursor(0, 0);
-  
-  // declaro senseores
-  dhtHabitacion1.setup(DHT_Hab1, DHTesp::DHT22);
-  dhtHabitacion2.setup(DHT_Hab2, DHTesp::DHT22);
-  dhtHabitacion3.setup(DHT_Hab3, DHTesp::DHT22);
-  
-}
 /*funcion del controlador PI
 
    RECIBE POR REFERENCIA:
@@ -96,6 +74,30 @@ float PI_Controller(DHTesp &sensor, int LCD_row, float &temp_set, float Kp, floa
     return PWM_value; // retornamos la señal de control
   }
   return 0;
+}
+
+
+void setup()
+{
+  Serial.begin(9600);
+  // inicializo pines de salida
+  pinMode(ledRojo_1, OUTPUT);
+  pinMode(ledAzul_1, OUTPUT);
+  pinMode(ledRojo_2, OUTPUT);
+  pinMode(ledAzul_2, OUTPUT);
+  pinMode(ledRojo_3, OUTPUT);
+  pinMode(ledAzul_3, OUTPUT);
+  
+ //  inicio LCD
+  LCD.init();
+  LCD.backlight();
+  LCD.setCursor(0, 0);
+  
+  // declaro senseores
+  dhtHabitacion1.setup(DHT_Hab1, DHTesp::DHT22);
+  dhtHabitacion2.setup(DHT_Hab2, DHTesp::DHT22);
+  dhtHabitacion3.setup(DHT_Hab3, DHTesp::DHT22);
+  
 }
 
 void loop()
