@@ -14,16 +14,13 @@
 #define DHTPIN_1 0
 #define DHTPIN_2 4
 #define DHTPIN_3 15
-
 #define DHTTYPE DHT11
-
 
 const int rs = 14, en = 12, d4 = 33, d5 = 25, d6 = 26, d7 = 27;
 LiquidCrystal lcd(14,12,33,25,26,27);
 DHT dht1(DHTPIN_1, DHTTYPE);
 DHT dht2(DHTPIN_2, DHTTYPE);
 DHT dht3(DHTPIN_3, DHTTYPE);
-
 
 void setup() {
   lcd.begin(20, 4);
