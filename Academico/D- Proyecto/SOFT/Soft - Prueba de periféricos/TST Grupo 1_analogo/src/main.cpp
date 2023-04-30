@@ -28,28 +28,30 @@ LiquidCrystal lcd(14,12,33,25,26,27);
 
 void setup() {
   lcd.begin(20, 4);
-  analogReadResolution(8);
+  analogReadResolution(12);
 }
  
 void loop() {
 
   lcd.clear();
 
-  int t1  = analogRead(pote1);
-  int t2  = analogRead(pote2);
-  int t3  = analogRead(pote3);
+  float t1  = (analogRead(pote1)/10);
+  float t2  = analogRead(pote2);
+  float t3  = analogRead(pote3);
+
+  float ta = map(t1, 0,409, 0,50);
 
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("SetPoint1 = ");
-  lcd.print(t1);
+  lcd.print(ta,1);
 
   lcd.setCursor(0, 1);
   lcd.print("SetPoint2 = ");
-  lcd.print(t2);
+  lcd.print(t2,1);
 
   lcd.setCursor(0, 2);
   lcd.print("SetPoint3 = ");
-  lcd.print(t3);
+  lcd.print(t3,1);
   delay(100); 
 }
