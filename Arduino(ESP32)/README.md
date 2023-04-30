@@ -1,0 +1,1 @@
+Código funcional para el proyecto de controlodor de temperatura para una casa inteligente.
