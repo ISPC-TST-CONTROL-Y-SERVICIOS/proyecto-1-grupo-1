@@ -18,15 +18,12 @@ int ciclo = 0;
 int ciclo1 = 0;
 const int rs = 14, en = 12, d4 = 33, d5 = 25, d6 = 26, d7 = 27;
 LiquidCrystal lcd(14,12,33,25,26,27);
-
-
-
  
 void setup() {
   lcd.begin(20, 4);
   ledcSetup(ledChannel, freq, resolution);
   ledcAttachPin(23, ledChannel);
- 
+
 }
  
 void loop() {
