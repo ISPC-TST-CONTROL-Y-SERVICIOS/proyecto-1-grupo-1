@@ -4,9 +4,10 @@ Primer simulacion PI <br>
 
 Video de simulacion con 3 sensores DHT22 en WOWKI
 
-https://youtu.be/7KuE0lPy41Y
+[![Alt text](https://img.youtube.com/vi/7KuE0lPy41Y/0.jpg)](https://www.youtube.com/watch?v=7KuE0lPy41Y)
 
 
 Video de simulacion con 3 sensores DHT22, 3 potenciometros, LCD 20x4 
 
-https://youtu.be/ZyBpubuJEk0
+[![Alt text](https://img.youtube.com/vi/ZyBpubuJEk0/0.jpg)](https://www.youtube.com/watch?v=ZyBpubuJEk0)
+
