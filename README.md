@@ -15,7 +15,10 @@
 * Imágenes del maquetado del proyecto
 
 
-
 ## Licencia ##
 * Este proyecto y su código fuente están autorizados bajo la Licencia Pública General GNU, versión 3 (GPL v3).
 
+## Video Demo ##
+* Demostracion de funcionamiento del prototipo para el sistema de control domestico 
+
+[![Alt text](https://img.youtube.com/vi/configuroweb/0.jpg)](https://www.youtube.com/watch?v=uwhacIJPKPQ)
